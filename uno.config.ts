@@ -2,7 +2,7 @@ import transformerDirectives from '@unocss/transformer-directives'
 import transformerVariantGroup from '@unocss/transformer-variant-group'
 import { defineConfig, presetUno } from 'unocss'
 
-import alignment from './lib/unocss/alignment'
+import { alignment } from './lib/unocss'
 
 export default defineConfig({
   content: {
