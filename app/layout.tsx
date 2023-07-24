@@ -21,7 +21,7 @@ const schibstedGrotesk = Schibsted_Grotesk({
 
 const Layout: App.Layout = function ({ children }) {
   return (
-    <html lang="en" className={`dark ${outfit.variable} ${schibstedGrotesk.variable}`}>
+    <html lang="pt-BR" className={`dark ${outfit.variable} ${schibstedGrotesk.variable}`}>
       <body className="w-full min-h-auto bg-white text-mauve-900 font-sans dark:bg-mauve-1300 dark:text-mauve-100 bg-grid">
         {children}
       </body>
