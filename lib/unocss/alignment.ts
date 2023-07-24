@@ -1,6 +1,6 @@
 import type { Preset } from 'unocss'
 
-export default function alignment(): Preset {
+export function alignment(): Preset {
   return {
     name: '@unocss/alignment',
     rules: [
