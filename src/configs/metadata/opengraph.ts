@@ -1,3 +1,5 @@
+import { env } from '@lib::tools'
+
 import base from './base'
 
 export default {
@@ -6,10 +8,10 @@ export default {
   title: base.title.default,
   siteName: 'meluiz.com',
   description: base.description,
-  url: 'https://meluiz.com',
+  url: env.APP_URL,
   images: [
     {
-      url: 'https://meluiz.com/opengraph.jpg',
+      url: `${env.APP_URL}/opengraph.jpg`,
       type: 'image/jpg',
       width: 1920,
       height: 1080,
